@@ -1,0 +1,140 @@
+browser=Chrome
+
+#OpenUrl
+url = https://intelidataexpress.beta.datamyx.com/
+
+#LogIn
+ip_username_id=Username
+username_data=Sbhujbal
+ip_password_id=Password
+password_data=Test@123
+btn_SignInbutton_xpath=//div[@class='text-center my-4']
+
+#Add New Audience page navigation
+btn_Createaudiencebutton_xpath=//a[@href='/Search/Create']
+
+#Add New Audience Form
+ip_Name_xpath=//input[@name=\"Name\"]
+lnk_UsageType_xpath=//label/span[contains(.,\"Direct Mail\")]
+btn_Savebutton_xpath=//div/button[contains(.,\"Save & Continue\")]
+
+#Geography Selection
+opt_State_xpath=//select/option[contains(.,\"ALABAMA\")]
+lnk_GlobalRejects_xpath=//li/a[@href='#globalrejects']
+
+#Credit Criteria Selection
+ip_Ficomin_xpath=//div/input[@name=\"21-min\"]
+ip_Ficomax_xpath=//div/input[@name=\"21-max\"]
+btn_Submitbutton_xpath=//div/button[@name=\"submitButton\"]
+
+#Create Level
+ip_LevelName_xpath=//div/input[@name='CurrentLevelName']
+lnk_LevelCriteria_xpath=//li/a[@href='#CreditSelects']
+
+#Verify Level Created
+lkn_LevelAccordion_xpath=//div/div[@class=\"clickable col-9\"]
+
+#Edit Level
+btn_EditLevel_xpath=//div/button[@title=\"Edit Level\"]
+ip_LevelName_xpath=//div/input[@name=\"CurrentLevelName\"]
+
+#Copy Level
+btn_CopyLevel_xpath=//div/button[@title=\"Copy Level\"]
+
+#Delete Level
+btn_CopiedLevel_xpath=//button/i[@class='fas fa-trash-alt']
+btn_DeleteLevel_xpath=//div/button[contains(.,'Delete')]
+btn_Submitbutton1_xpath=//div/a[contains(.,'Continue')]
+
+#Verifying deleted element
+vfy_DeletedLevel_xpath=//ul/li[contains(.,'1 level(s)')]
+
+#Build Audience
+btn_BuildAudiencebuttons_xpath=//form/button[contains(.,\" Build Audience\")]
+lnk_SelectRecords_xpath=//td/input[@id=\"0_requestedinput\"]
+msg_AudienceBuilt_xpath=//div/p[contains(.,'Your audience is being built and should be finished soon.')]
+
+#Select Records
+lnk_SelectRecords2_xpath=//label[@for='check1']
+ip_RequestedInput_xpath=//td/input[@id='0_requestedinput']
+btn_Savebutton1_xpath=//div/button[@id='saveButton']
+
+
+#Place Order
+lnk_SelectFile_xpath=//label[@for='33371']
+ip_PONumber_xpath=//div/input[@name='poNumber']
+btn_PlaceOrder_xpath=//span/button[contains(.,'Place Order')]
+
+#Verify Placed Order
+msg_VerifyHeader_xpath=//h3[@class='main-header-title']
+
+#Purchase Order
+btn_Purchasebutton_xpath=//div/button[@id='purchaseBtn']
+msg_VerifyProcess_xpath=//div/h3[contains(.,'Processing')]
+msg_VerifyProcess2_xpath=//div/p[contains(.,'Your order is processing and should be finished soon.')]
+
+#Verify status of posted Purchase Order
+msg_StatusPosted_xpath=//li/span[contains(.,'Posted')]
+
+#Actions on Order
+btn_Actionsbutton_xpath=//button[contains(.,'Actions')]
+btn_ShipOrderbutton_xpath=//li/a[@id='shipOrderBtn']
+
+#Verify Status of Posted Shipped Order
+msg_OrderStatus_xpath=//li/span[contains(.,'Shipped')]
+cnt_OrderCount_xpath=//table/tfoot/tr/td[2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

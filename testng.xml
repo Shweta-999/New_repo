@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestIE">
+    <classes>
+      <class name="features.Copy_Level"/>
+      <class name="features.Build_Audience"/>
+      <class name="features.Select_records"/>
+      <class name="features.Place_order"/>
+      <class name="features.Edit_Level"/>
+      <class name="features.Verify_Placed_Order"/>
+      <class name="features.Add_New_Audience_Form"/>
+      <class name="features.Verifying_deleted_element"/>
+      <class name="features.Verify_Status_of_Posted_Purchase_Order"/>
+      <class name="features.Credit_Criteria_Selection"/>
+      <class name="features.Verify_Status_of_Posted_Shipped_Order"/>
+      <class name="features.Add_New_Audience_page_navigation"/>
+      <class name="features.Geography_Selection"/>
+      <class name="features.Delete_Level"/>
+      <class name="features.Purchase_Order"/>
+      <class name="features.Create_Level"/>
+      <class name="features.Verify_Level_Created"/>
+      <class name="features.Actions_on_Order"/>
+      <class name="features.Verify_copied_Level"/>
+      <class name="features.Verify_updated_Level"/>
+    </classes>
+  </test> <!-- TestIE -->
+</suite> <!-- Suite -->
